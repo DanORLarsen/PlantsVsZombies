@@ -8,12 +8,11 @@ public class Plant {
     }
     public Plant()
     {this.hp = 100;
-        this.dmg = 10;
+        this.dmg = (int)(Math.random()*20+1);
     }
 
     public int plantAttack()
-    {
-        System.out.println("The Plant attacks the Zombie");
+    { System.out.println("The Plant attacks the Zombie with: " + dmg + " Damage" );
         return dmg;}
 
     public int plantTakeDmg(int dmgTaken)
