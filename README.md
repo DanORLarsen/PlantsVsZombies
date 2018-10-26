@@ -1,11 +1,13 @@
 # PlantsVsZombies
---
-##Indholder
-###Plant Class
+------ 
+
+## Indholder
+
+### Plant Class
 her har jeg lavet objectet "Plant" som har metoderne takeDmg og Attack, samt constructor mm. 
-###Zombie class
+### Zombie class
 Som har det samme som Plant klassen
-###Game Class
+### Game Class
 Her laver jeg metoden start(), hvor vi skriver selve spillet ud, og anvender de forskellige metoder fra Plant og Zombie
-###Main Class
+### Main Class
 Her starter vi spillet.
